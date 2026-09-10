@@ -1,0 +1,3 @@
+I am currently in my second year.
+I am building my Python foundations.
+My goal is to become a developer.
