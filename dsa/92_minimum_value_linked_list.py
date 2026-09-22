@@ -6,10 +6,10 @@ class Node:
 
 head = Node(10)
 
-head.next = Node(45)
-head.next.next = Node(20)
-head.next.next.next = Node(80)
-head.next.next.next.next = Node(35)
+head.next = Node(25)
+head.next.next = Node(7)
+head.next.next.next = Node(40)
+head.next.next.next.next = Node(15)
 
 
 def find_minimum(head):
@@ -20,6 +20,7 @@ def find_minimum(head):
     current = head.next
 
     while current is not None:
+
         if current.data < minimum:
             minimum = current.data
 
@@ -41,9 +42,6 @@ def display(head):
 print("Linked list:")
 display(head)
 
-result = find_minimum(head)
+minimum = find_minimum(head)
 
-if result is not None:
-    print("Minimum value:", result)
-else:
-    print("Linked list is empty.")
+print("Minimum value:", minimum)

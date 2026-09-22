@@ -6,10 +6,10 @@ class Node:
 
 head = Node(10)
 
-head.next = Node(45)
-head.next.next = Node(20)
-head.next.next.next = Node(80)
-head.next.next.next.next = Node(35)
+head.next = Node(25)
+head.next.next = Node(7)
+head.next.next.next = Node(40)
+head.next.next.next.next = Node(15)
 
 
 def find_second_smallest(head):
@@ -51,9 +51,6 @@ def display(head):
 print("Linked list:")
 display(head)
 
-result = find_second_smallest(head)
+second_smallest = find_second_smallest(head)
 
-if result is not None:
-    print("Second smallest value:", result)
-else:
-    print("Second smallest value does not exist.")
+print("Second smallest value:", second_smallest)

@@ -7,27 +7,28 @@ class Node:
 head = Node(10)
 
 head.next = Node(25)
-head.next.next = Node(30)
-head.next.next.next = Node(41)
-head.next.next.next.next = Node(50)
+head.next.next = Node(8)
+head.next.next.next = Node(13)
+head.next.next.next.next = Node(20)
+head.next.next.next.next.next = Node(7)
 
 
 def count_even_odd(head):
-    even_count = 0
-    odd_count = 0
+    even = 0
+    odd = 0
 
     current = head
 
     while current is not None:
 
         if current.data % 2 == 0:
-            even_count += 1
+            even += 1
         else:
-            odd_count += 1
+            odd += 1
 
         current = current.next
 
-    return even_count, odd_count
+    return even, odd
 
 
 def display(head):

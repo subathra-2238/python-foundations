@@ -7,12 +7,12 @@ class Node:
 head = Node(50)
 
 head.next = Node(40)
-head.next.next = Node(30)
-head.next.next.next = Node(20)
+head.next.next = Node(40)
+head.next.next.next = Node(25)
 head.next.next.next.next = Node(10)
 
 
-def is_sorted_descending(head):
+def is_descending(head):
     if head is None or head.next is None:
         return True
 
@@ -41,7 +41,7 @@ def display(head):
 print("Linked list:")
 display(head)
 
-if is_sorted_descending(head):
+if is_descending(head):
     print("The linked list is sorted in descending order.")
 else:
     print("The linked list is not sorted in descending order.")

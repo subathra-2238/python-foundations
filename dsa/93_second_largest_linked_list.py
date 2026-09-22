@@ -6,10 +6,10 @@ class Node:
 
 head = Node(10)
 
-head.next = Node(45)
-head.next.next = Node(20)
-head.next.next.next = Node(80)
-head.next.next.next.next = Node(35)
+head.next = Node(25)
+head.next.next = Node(7)
+head.next.next.next = Node(40)
+head.next.next.next.next = Node(15)
 
 
 def find_second_largest(head):
@@ -51,9 +51,6 @@ def display(head):
 print("Linked list:")
 display(head)
 
-result = find_second_largest(head)
+second_largest = find_second_largest(head)
 
-if result is not None:
-    print("Second largest value:", result)
-else:
-    print("Second largest value does not exist.")
+print("Second largest value:", second_largest)

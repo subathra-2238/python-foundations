@@ -6,8 +6,8 @@ class Node:
 
 head = Node(10)
 
-head.next = Node(20)
-head.next.next = Node(30)
+head.next = Node(25)
+head.next.next = Node(25)
 head.next.next.next = Node(40)
 head.next.next.next.next = Node(50)
 
@@ -42,6 +42,6 @@ print("Linked list:")
 display(head)
 
 if is_sorted(head):
-    print("The linked list is sorted.")
+    print("The linked list is sorted in ascending order.")
 else:
-    print("The linked list is not sorted.")
+    print("The linked list is not sorted in ascending order.")
