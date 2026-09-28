@@ -1,0 +1,31 @@
+[33mcommit db745de6867db82f2d6209c77a70b5694019a25e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author:     Subathra p <subathra.tech@gmail.com>
+AuthorDate: Mon Sep 28 22:44:42 2026 +0530
+Commit:     Subathra p <subathra.tech@gmail.com>
+CommitDate: Mon Sep 28 22:44:42 2026 +0530
+
+    add
+
+[33mcommit 249ded6b8f021ee3045cff12cbdeb2538d8a153e[m
+Author:     Subathra p <subathra.tech@gmail.com>
+AuthorDate: Mon Sep 28 22:43:34 2026 +0530
+Commit:     Subathra p <subathra.tech@gmail.com>
+CommitDate: Mon Sep 28 22:43:34 2026 +0530
+
+    Add longest strictly decreasing run end position algorithm
+
+[33mcommit 4d003beb6e7db509497701e095784eae14940a3b[m
+Author:     Subathra p <subathra.tech@gmail.com>
+AuthorDate: Mon Sep 28 22:42:15 2026 +0530
+Commit:     Subathra p <subathra.tech@gmail.com>
+CommitDate: Mon Sep 28 22:42:15 2026 +0530
+
+    Add longest strictly increasing run end position algorithm
+
+[33mcommit ca0a559fd5607ad5b552cab3435e4e2ecae4677e[m
+Author:     Subathra p <subathra.tech@gmail.com>
+AuthorDate: Mon Sep 28 22:31:43 2026 +0530
+Commit:     Subathra p <subathra.tech@gmail.com>
+CommitDate: Mon Sep 28 22:31:43 2026 +0530
+
+    Initial commit
