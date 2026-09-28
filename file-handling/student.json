@@ -1,0 +1,10 @@
+{
+    "name": "Subathra",
+    "age": 18,
+    "department": "AI & ML",
+    "skills": [
+        "Python",
+        "IoT",
+        "Cybersecurity"
+    ]
+}

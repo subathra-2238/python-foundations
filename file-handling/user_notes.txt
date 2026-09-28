@@ -1,0 +1,3 @@
+Name: Subathra
+Goal: Learn Python
+Note: Dudeee

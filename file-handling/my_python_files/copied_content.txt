@@ -1,0 +1,3 @@
+Hello, I am Subathra.
+I am learning Python.
+This is my Python Foundations journey.

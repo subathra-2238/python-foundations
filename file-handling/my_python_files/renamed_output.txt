@@ -1,0 +1,4 @@
+Hello, Subathra!
+I am learning Python File Handling.
+This file was created using Python.
+I am practicing File Handling.
