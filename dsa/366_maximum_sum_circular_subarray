@@ -1,0 +1,29 @@
+numbers = [5, -3, 5]
+
+total_sum = numbers[0]
+
+current_max = numbers[0]
+maximum_sum = numbers[0]
+
+current_min = numbers[0]
+minimum_sum = numbers[0]
+
+for number in numbers[1:]:
+    total_sum += number
+
+    current_max = max(number, current_max + number)
+    maximum_sum = max(maximum_sum, current_max)
+
+    current_min = min(number, current_min + number)
+    minimum_sum = min(minimum_sum, current_min)
+
+if maximum_sum < 0:
+    circular_maximum = maximum_sum
+else:
+    circular_maximum = max(
+        maximum_sum,
+        total_sum - minimum_sum
+    )
+
+print("Array:", numbers)
+print("Maximum circular subarray sum:", circular_maximum)
