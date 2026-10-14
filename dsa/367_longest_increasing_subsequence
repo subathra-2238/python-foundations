@@ -1,0 +1,24 @@
+numbers = [10, 9, 2, 5, 3, 7, 101, 18]
+
+dp = [1] * len(numbers)
+previous = [-1] * len(numbers)
+
+for i in range(len(numbers)):
+    for j in range(i):
+        if numbers[j] < numbers[i] and dp[j] + 1 > dp[i]:
+            dp[i] = dp[j] + 1
+            previous[i] = j
+
+max_index = dp.index(max(dp))
+
+sequence = []
+
+while max_index != -1:
+    sequence.append(numbers[max_index])
+    max_index = previous[max_index]
+
+sequence.reverse()
+
+print("Array:", numbers)
+print("Longest increasing subsequence:", sequence)
+print("Length:", len(sequence))
